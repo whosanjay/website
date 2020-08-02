@@ -1,0 +1,137 @@
+*{ margin: 0;
+    padding: 0;
+    font-family: 'Red Rose';
+    box-sizing: border-box;}
+            
+            body{
+                background: #fff;
+                background-size: cover;
+                height:100vh;
+                background-position: left;
+                min-height: 100vh;
+                justify-content: center;
+                background-color: #f1f1f1;
+                background:#fff;
+                background-size: cover;
+                
+            }
+        .header
+            {
+                width:100%;
+                background-color: rgba(0,0,0,.2);
+            }
+            .header ul{
+                text-align: right;
+            }
+            
+            .header ul li{
+                list-style: none;
+                display: inline-block;
+                
+            }    
+            .header ul li a
+            {
+                display: block;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 100%;
+                font-family: 'Comfortaa', cursive;
+                letter-spacing: 2px;
+                font-weight: 600;
+                padding: 25px;
+                transition: all ease 0.5s;
+                
+            }
+            
+            .header ul li a:hover{
+                background-color: #211b4385;
+                
+                
+                
+            }
+.logo img{
+    position: absolute;
+    
+    margin-left: 30px;
+}
+        
+
+
+
+
+
+.about-section{
+    
+    background: url(macbook_apple_keys_161213_1152x864.jpg) no-repeat left;
+    background-size: cover;
+    height:80vh;
+    background-position: left;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.inner-container{
+    
+    width: 45%;
+    height: 75%;
+    float: left;
+    background-clip: #fdfdfd;
+    padding: 50px;   
+}
+
+.inner-container h1{
+    
+    font-family: 'Red Rose', cursive;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    
+    
+}
+
+.text {
+    
+    
+    font-family: 'Quattrocento', serif;
+    font-size: 20px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    
+}
+
+.skills {
+    
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+    
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .inner-container{padding: 80px;}
+}
+
+
+@media screen and (max-width: 1000px) {
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+        
+    }
+    .inner-container{width: 100%;}
+}
+
+@media screen and (max-width: 600px) {
+    .about-section{
+        
+        padding: 0;
+        
+    }
+    .inner-container{
+    padding: 60px;}
+}
